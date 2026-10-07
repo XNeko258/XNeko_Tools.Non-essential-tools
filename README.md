@@ -34,7 +34,7 @@ More modules will be added over time.
 1. Make sure [XNeko_Tools](https://github.com/XNeko258/XNeko_Tools) is installed and working in your Blender.
 2. Download the module folder you want (e.g. `music_player/`).
 3. Place it inside the base toolbox's tool directory:
-     XNeko_Tools/tools/<category>/<module>/XNeko_Tools/tools/media_tools/music_player/
+     XNeko_Tools/tools/(category folder)/music_player/
 4. **Completely restart Blender** (not `F8` reload).
 5. Open the N-panel in the 3D Viewport → `XNeko Tools` tab → find the module under its category.
 
@@ -45,8 +45,9 @@ No `pip`, no internet connection, and no global installation required — all de
 ## 🧩 Module Structure
 
 Each module follows the standard XNeko_Tools layout:
-<category>/
-└── <module_name>/
+
+(category folder)/
+└── module_name/
 ├── init.py # Registration entry point
 ├── _deps.py # Bundled dependency loader
 ├── _libs/ # Bundled third-party libraries
