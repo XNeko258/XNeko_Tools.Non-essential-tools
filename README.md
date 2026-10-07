@@ -1,2 +1,70 @@
-# XNeko_Tools.Non-essential tools
-This is a project attached to XNeko_Tools, used to release non-essential tools.
+# XNeko_Tools · Non-essential Tools
+
+A companion repository for [XNeko_Tools](https://github.com/XNeko258/XNeko_Tools), used to distribute optional and non-essential tool modules.
+
+These modules are **not required** for the core toolbox to work. They are experimental, fun, or niche add-ons that extend XNeko Tools beyond the standard feature set.
+
+---
+
+## ⚠️ Requirements
+
+**The base toolbox is required.**
+
+Before installing any module from this repository, you must first install [XNeko_Tools](https://github.com/XNeko258/XNeko_Tools).
+
+👉 **Download the base toolbox here:**
+[https://github.com/XNeko258/XNeko_Tools](https://github.com/XNeko258/XNeko_Tools)
+
+Modules from this repository will not load without it.
+
+---
+
+## 📦 Available Modules
+
+| Module | Category | Description |
+|--------|----------|-------------|
+| [Music Player](tools/media_tools/music_player) | Media Tools | A local audio player inside Blender's N-panel. Supports folder scanning, playlist browsing, shuffle, loop, and jump controls. |
+
+More modules will be added over time.
+
+---
+
+## 🛠️ Installation
+
+1. Make sure [XNeko_Tools](https://github.com/XNeko258/XNeko_Tools) is installed and working in your Blender.
+2. Download the module folder you want (e.g. `music_player/`).
+3. Place it inside the base toolbox's tool directory:
+     XNeko_Tools/tools/<category>/<module>/XNeko_Tools/tools/media_tools/music_player/
+4. **Completely restart Blender** (not `F8` reload).
+5. Open the N-panel in the 3D Viewport → `XNeko Tools` tab → find the module under its category.
+
+No `pip`, no internet connection, and no global installation required — all dependencies are bundled inside each module.
+
+---
+
+## 🧩 Module Structure
+
+Each module follows the standard XNeko_Tools layout:
+<category>/
+└── <module_name>/
+├── init.py # Registration entry point
+├── _deps.py # Bundled dependency loader
+├── _libs/ # Bundled third-party libraries
+├── _operators.py # Blender operators
+├── _panels.py # UI panels
+└── ... # Helper modules
+
+Files starting with `_` are treated as internal helpers and are skipped by the framework's auto-registration.
+
+---
+
+## 📄 License
+
+Each module may carry its own license. Check the module folder for details. Bundled third-party libraries retain their original licenses.
+
+---
+
+## 🔗 Related
+
+- **Base toolbox:** [XNeko_Tools](https://github.com/XNeko258/XNeko_Tools)
+- **Issues & feature requests:** please open an issue in the relevant repository.
