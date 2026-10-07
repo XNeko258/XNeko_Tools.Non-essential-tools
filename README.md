@@ -46,14 +46,16 @@ No `pip`, no internet connection, and no global installation required — all de
 
 Each module follows the standard XNeko_Tools layout:
 
-(category folder)/
-└── module_name/
-├── init.py # Registration entry point
-├── _deps.py # Bundled dependency loader
-├── _libs/ # Bundled third-party libraries
-├── _operators.py # Blender operators
-├── _panels.py # UI panels
-└── ... # Helper modules
+```
+<category>/
++-- <module_name>/
+    +-- __init__.py        # Registration entry point
+    +-- _deps.py           # Bundled dependency loader
+    +-- _libs/             # Bundled third-party libraries
+    +-- _operators.py      # Blender operators
+    +-- _panels.py         # UI panels
+    +-- ...                # Helper modules
+```
 
 Files starting with `_` are treated as internal helpers and are skipped by the framework's auto-registration.
 
