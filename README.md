@@ -23,7 +23,7 @@ Modules from this repository will not load without it.
 
 | Module | Category | Description |
 |--------|----------|-------------|
-| [Music Player](tools/media_tools/music_player) | Media Tools | A local audio player inside Blender's N-panel. Supports folder scanning, playlist browsing, shuffle, loop, and jump controls. |
+| [Music Player](https://github.com/XNeko258/XNeko_Tools.Non-essential-tools/releases/tag/Blender_Music_Player) | Media Tools | A local audio player inside Blender's N-panel. Supports folder scanning, playlist browsing, shuffle, loop, and jump controls. |
 
 More modules will be added over time.
 
