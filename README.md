@@ -13,7 +13,7 @@ These modules are **not required** for the core toolbox to work. They are experi
 Before installing any module from this repository, you must first install [XNeko_Tools](https://github.com/XNeko258/XNeko_Tools).
 
 👉 **Download the base toolbox here:**
-[https://github.com/XNeko258/XNeko_Tools](https://github.com/XNeko258/XNeko_Tools)
+[XNeko_Tools](https://github.com/XNeko258/XNeko_Tools/releases)
 
 Modules from this repository will not load without it.
 
