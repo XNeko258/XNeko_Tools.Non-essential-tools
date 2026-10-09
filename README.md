@@ -24,7 +24,7 @@ Modules from this repository will not load without it.
 | Module | Category | Description |
 |--------|----------|-------------|
 | [Music Player](https://github.com/XNeko258/XNeko_Tools.Non-essential-tools/releases/tag/Blender_Music_Player) | Media Tools | A local audio player inside Blender's N-panel. Supports folder scanning, playlist browsing, shuffle, loop, and jump controls. |
-| [UE Format (Improved)](https://github.com/XNeko258/UEFormat.XNeko-Improved-Version/releases) | Importers | Blender importer for `.uemodel` / `.ueanim` / `.uepose` files. Rewritten from [h4lfheart/UEFormat](https://github.com/h4lfheart/UEFormat) with performance and safety improvements. Ships as both an XNeko_Tools module and a **standalone plugin** — the standalone version does not require XNeko_Tools. |
+| [UE Format (Improved)](https://github.com/XNeko258/UEFormat-XNeko/releases) | Importers | Blender importer for `.uemodel` / `.ueanim` / `.uepose` files. Rewritten from [h4lfheart/UEFormat](https://github.com/h4lfheart/UEFormat) with performance and safety improvements. Ships as both an XNeko_Tools module and a **standalone plugin** — the standalone version does not require XNeko_Tools. |
 
 More modules will be added over time.
 
